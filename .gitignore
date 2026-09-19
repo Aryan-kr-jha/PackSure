@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+**/venv/
+**/.venv/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Runtime Uploads & nested uploads
+Backend/uploads/*
+!Backend/uploads/.gitkeep
+Backend/Backend/
+uploads/
+
+# Large Archives & Temp Test Artifacts
+*.zip
+*.pdf
+scratch/
+
+# OS generated files
+.DS_Store
+Thumbs.db
